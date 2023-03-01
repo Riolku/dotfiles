@@ -199,4 +199,4 @@ bar {
 }
 
 exec --no-startup-id xrandr -s 1920x1080
-exec --no-startup-id nitrogen --set-auto .background.png 
+exec --no-startup-id nitrogen --set-auto .config/background.png
