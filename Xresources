@@ -1,7 +1,0 @@
-URxvt.background: Black
-URxvt.foreground: White
-URxvt.scrollBar: false
-URxvt.font: xft:DejaVu Sans Mono:size=10
-URxvt.color12: #3484ff
-URxvt.iso14755: false
-URxvt.iso14755_52: false
