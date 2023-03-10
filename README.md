@@ -21,3 +21,15 @@ Add a place for system ctags and set sane indenting defaults.
 ## foot
 
 Modified the Ubuntu theme until it looked nice with Vim & fish.
+
+## Background / Lockscreen
+
+I really like the Bookworm Emerald images, so I used those.
+
+## GTK / Qt Themes
+
+Adwaita is really nice, especially since I come from gnome.
+
+## Fish
+
+Use a more informative prompt with Git info, add keybinds to avoid arrow keys, use VI keybindings, add VENV management commands.
