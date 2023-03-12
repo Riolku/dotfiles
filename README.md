@@ -4,7 +4,6 @@
 
 ```sh
 cp -auvT .config ~/.config
-sudo cp -auvT etc /etc
 ```
 
 Note that this doesn't delete existing files.
@@ -40,8 +39,6 @@ I really like the Bookworm Emerald images, so I used those.
 ### GTK / Qt Themes
 
 Adwaita is really nice, especially since I come from gnome.
-
-Also, `etc` contains an environment file to use qt5ct themes.
 
 ### Fish
 
