@@ -3,6 +3,7 @@ function fish_prompt --description 'Informative prompt'
     set -l last_pipestatus $pipestatus
     set -lx __fish_last_status $status # Export for __fish_print_pipestatus.
 
+    set -lx fish_prompt_pwd_dir_length 0
     if functions -q fish_is_root_user; and fish_is_root_user
         printf '%s@%s %s%s%s# ' $USER (prompt_hostname) (set -q fish_color_cwd_root
                                                          and set_color $fish_color_cwd_root
