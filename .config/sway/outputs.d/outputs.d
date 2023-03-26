@@ -1,0 +1,1 @@
+/home/keenan/Projects/dotfiles/.config/sway//home/keenan/Projects/dotfiles/.config/sway/outputs.d

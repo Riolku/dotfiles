@@ -1,0 +1,8 @@
+bindsym --to-code {
+    $mod+Shift+v splith
+    $mod+v splitv
+    $mod+s layout stacking
+    $mod+w layout tabbed
+    $mod+e layout toggle split
+    $mod+f fullscreen
+}

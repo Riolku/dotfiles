@@ -1,0 +1,4 @@
+bindsym --to-code {
+    $mod+a focus parent
+    $mod+z focus child
+}

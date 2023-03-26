@@ -1,0 +1,14 @@
+set $mode_system "Logout (q), Lock (l), Poweroff (p), Reboot (r)"
+mode $mode_system {
+    bindsym --to-code {
+        l exec swaylock -i $locksreen; mode "default"
+        p exec systemctl poweroff; mode "default"
+        r exec systemctl reboot; mode "default"
+        q exit; mode "default"
+
+        # Escape
+        Return mode "default"
+        Escape mode "default"
+    }
+}
+bindsym --to-code $mod+BackSpace mode $mode_system

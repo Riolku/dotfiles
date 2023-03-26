@@ -1,0 +1,4 @@
+bindsym --to-code {
+    $mod+Shift+minus move scratchpad
+    $mod+minus scratchpad show
+}

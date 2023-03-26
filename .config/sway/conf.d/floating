@@ -1,0 +1,5 @@
+floating_modifier $mod normal
+bindsym --to-code {
+    $mod+Shift+space floating toggle
+    $mod+space focus mode_toggle
+}

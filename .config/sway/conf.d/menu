@@ -1,0 +1,4 @@
+bindsym --to-code {
+    $mod+d exec $menu
+    $mod+Shift+d exec $raw_menu
+}
