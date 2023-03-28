@@ -1,1 +1,1 @@
-exec mako -c ~/.config/mako/config
+exec mako
