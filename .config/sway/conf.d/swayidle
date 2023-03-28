@@ -1,0 +1,1 @@
+exec swayidle -w before-sleep 'swaylock -f -c ~/.config/lockscreen.png'
