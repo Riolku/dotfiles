@@ -1,1 +1,2 @@
 exec mako
+bindsym --to-code $mod+Escape exec makoctl dismiss --all
