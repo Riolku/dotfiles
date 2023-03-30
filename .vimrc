@@ -12,6 +12,8 @@ set incsearch
 set relativenumber
 set number
 
+set directory^=~/.vim/swap//
+
 set tags+=~/.vim/systags
 
 set directory^=$HOME/.vim/swap//
