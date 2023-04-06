@@ -6,7 +6,6 @@ Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'williamboman/mason.nvim'
 
 " tpope
-Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
@@ -18,8 +17,9 @@ Plug 'tpope/vim-vinegar'
 " Misc utilities
 Plug 'farmergreg/vim-lastplace'
 Plug 'sheerun/vim-polyglot'
+Plug 'tomtom/tcomment_vim'
 
 " Colorscheme
-Plug 'joshdick/onedark.vim'
+Plug 'catppuccin/nvim', { 'as': 'catpuccin' }
 
 call plug#end()
