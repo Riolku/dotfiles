@@ -1,4 +1,5 @@
-max-visible=5
 default-timeout=10000
+max-visible=5
 output=DVI-D-1
 anchor=top-center
+font=Cantarell Regular 11
