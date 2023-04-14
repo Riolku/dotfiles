@@ -1,5 +1,7 @@
 local servers = {
-  'rust_analyzer',
+  -- FIXME: rust_analyzer is unhappy with my rustc single file projects. I
+  -- don't want to fix it rn.
+  -- 'rust_analyzer',
   'jedi_language_server',
   'clangd',
 }
