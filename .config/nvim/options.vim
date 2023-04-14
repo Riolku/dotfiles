@@ -13,3 +13,4 @@ let g:netrw_bufsettings = 'noma nomod nobl nowrap ro number relativenumber'
 set nohlsearch
 set undofile
 set smartcase
+set ignorecase
