@@ -1,7 +1,0 @@
-include=~/.config/foot/themes/ubuntu
-
-[colors]
-regular4=50a0ff
-bright4=50a0ff
-regular5=cd00cd
-regular7=bbbbbb
