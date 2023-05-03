@@ -1,9 +1,8 @@
 bar {
-    font xft:DejaVu Sans Mono:size=11
     position top
     mode hide
     hidden_state hide
     modifier none
-    status_command while date +'%Y-%m-%d %l:%M:%S %p'; do sleep 1; done
+    swaybar_command waybar
 }
 bindsym --to-code $mod+b bar hidden_state toggle
