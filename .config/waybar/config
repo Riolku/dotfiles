@@ -16,7 +16,8 @@
         "spacing": 10
     },
     "clock": {
-        "format": "{:%H:%M:%S}"
+        "format": "{:%H:%M:%S}",
+        "interval": 1
     },
     "battery": {
         "states": {
