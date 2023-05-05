@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Session
 export XDG_SESSION_TYPE=wayland
@@ -16,4 +16,4 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 
-exec sway $@ 2>&1 > ~/.local/share/sway/sway.log
+exec sway $@ &> ~/.local/share/sway/sway.log
