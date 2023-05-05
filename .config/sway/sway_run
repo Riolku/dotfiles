@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Session
 export XDG_SESSION_TYPE=wayland
