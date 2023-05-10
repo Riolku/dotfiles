@@ -20,6 +20,9 @@ Plug 'farmergreg/vim-lastplace'
 Plug 'sheerun/vim-polyglot'
 Plug 'tomtom/tcomment_vim'
 
+" LaTeX
+Plug 'lervag/vimtex'
+
 " Colorscheme
 Plug 'catppuccin/nvim', { 'as': 'catpuccin' }
 
