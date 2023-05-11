@@ -1,1 +1,1 @@
-exec swayidle -w before-sleep 'swaylock -f -i ~/Documents/lockscreen.jpg'
+exec swayidle -w before-sleep swaylock
