@@ -6,4 +6,4 @@ set $right l
 set $term foot
 set $menu wofi -S drun
 set $raw_menu wofi -S run
-set $background ~/Documents/background.jpg
+set $background ~/.config/background.jpg
