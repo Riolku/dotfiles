@@ -1,3 +1,5 @@
 function bkp --description "Perform a backup"
-    ~/.restic/backup.fish $argv
+    bw sync
+    and bw export --format encrypted_json --output ~/Backups/bitwarden_encrypted_export.json
+    and ~/.restic/backup.fish $argv
 end
