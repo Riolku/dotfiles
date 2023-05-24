@@ -1,6 +1,8 @@
 set number
 set relativenumber
 
+set noruler
+
 set shiftwidth=2
 set tabstop=2
 set expandtab
