@@ -1,0 +1,6 @@
+[Timer]
+OnUnitActiveSec=1d
+OnStartupSec=0s
+
+[Install]
+WantedBy=default.target
