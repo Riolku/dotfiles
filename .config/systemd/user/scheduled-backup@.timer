@@ -1,0 +1,5 @@
+[Timer]
+Unit=backup.service
+OnCalendar=@%i
+Persistent=true
+RemainAfterElapse=false
