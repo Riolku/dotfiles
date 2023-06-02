@@ -1,0 +1,4 @@
+[storage]
+type = radicale_storage_decsync
+filesystem_folder = ~/.local/share/radicale/collections
+decsync_dir = ~/Documents/important/decsync
