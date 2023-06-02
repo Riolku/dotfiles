@@ -1,0 +1,5 @@
+[Unit]
+Description=Reschedule a failed backup.
+
+[Service]
+ExecStart=%E/systemd/user/reschedule-backup.fish
