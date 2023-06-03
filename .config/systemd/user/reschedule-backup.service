@@ -1,5 +1,0 @@
-[Unit]
-Description=Reschedule a failed backup.
-
-[Service]
-ExecStart=fish -c "systemctl start --user scheduled-backup@(date -d 'now +1 hour' +%s).timer"

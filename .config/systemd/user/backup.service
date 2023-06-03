@@ -1,6 +1,5 @@
 [Unit]
 Description=Run a local backup
-OnFailure=reschedule-backup.timer
 
 [Service]
 ExecStart=%E/systemd/user/backup.fish
